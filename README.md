@@ -5,17 +5,23 @@
 
 # Summary
 
-## Business and Data Understanding: This system's goal is to recommend songs that align with users' preferences and enhance their music discovery. By leveraging Spotify's dataset, this project aims to provide personalized recommendations based on song characteristics like acousticness, tempo, and valence (mood).
+## Business and Data Understanding: 
+This system's goal is to recommend songs that align with users' preferences and enhance their music discovery. By leveraging Spotify's dataset, this project aims to provide personalized recommendations based on song characteristics like acousticness, tempo, and valence (mood).
 
-## Data: The dataset, sourced from Spotify's API, consists of 105,076 unique artists and 412,679 songs. Data preparation involved extracting key features for each song, followed by normalizing and transforming the data to make it suitable for modeling.
+## Data: 
+The dataset, sourced from Spotify's API, consists of 105,076 unique artists and 412,679 songs. Data preparation involved extracting key features for each song, followed by normalizing and transforming the data to make it suitable for modeling.
 
-## Libraries: The standard models were used, with scikit-learn used for KNNeighbors.
+## Libraries: 
+The standard models were used, with scikit-learn used for KNNeighbors.
 
-## Modeling: For modeling, I used a content-based approach, which is the most viable method without user-item interaction data. The model uses K-Nearest Neighbors (KNN), which calculates the cosine similarity between songs to find the most similar tracks based on their features.
+## Modeling: 
+For modeling, I used a content-based approach, which is the most viable method without user-item interaction data. The model uses K-Nearest Neighbors (KNN), which calculates the cosine similarity between songs to find the most similar tracks based on their features.
 
-## Evaluation: After evaluating the model, I observed that the recommendations were highly relevant to user input, with songs sharing significant features. However, limitations include the inability to account for user-specific preferences without additional data, which could be addressed in future work.
+## Evaluation: 
+After evaluating the model, I observed that the recommendations were highly relevant to user input, with songs sharing significant features. However, limitations include the inability to account for user-specific preferences without additional data, which could be addressed in future work.
 
-## Insights and limitations: from the project show that music recommendations are highly influenced by track features, and potential improvements include incorporating genre-based filters and user feedback for more personalized recommendations.
+## Insights and Limitations: 
+We can see how that music recommendations are highly influenced by track features, and potential improvements include incorporating genre-based filters and user feedback for more personalized recommendations.
 
 ## Thank you for reading, and I hope you enjoy exploring the system!
 
@@ -101,5 +107,4 @@ For more information please see:
 or further details, please refer to the following linked project notebook and presentation:
 
 
-[project_repository](https://github.com/JesseMooreDS/capstone) | [notebook](https://github.com/JesseMooreDS/capstone/blob/main/project.ipynb) | [presentation
-(https://github.com/JesseMooreDS/capstone/blob/main/presentation.pdf)
+[project_repository](https://github.com/JesseMooreDS/capstone) | [notebook](https://github.com/JesseMooreDS/capstone/blob/main/project.ipynb) | [presentation](https://github.com/JesseMooreDS/capstone/blob/main/presentation.pdf)
