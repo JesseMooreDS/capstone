@@ -101,4 +101,5 @@ For more information please see:
 or further details, please refer to the following linked project notebook and presentation:
 
 
-[project_repository](https://github.com/JesseMooreDS/capstone) | [notebook](https://github.com/JesseMooreDS/capstone/blob/main/project.ipynb) | [presentation]((https://github.com/JesseMooreDS/capstone/blob/main/presentation.pdf)
+[project_repository](https://github.com/JesseMooreDS/capstone) | [notebook](https://github.com/JesseMooreDS/capstone/blob/main/project.ipynb) | [presentation
+(https://github.com/JesseMooreDS/capstone/blob/main/presentation.pdf)
